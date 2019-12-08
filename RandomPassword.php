@@ -53,12 +53,12 @@ session_start();
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
 					<div class="showcase-left">
-			<div class="jumbotron">
-				<h1 class="a">Work Assistant</h1>
-				<h2 class="b">You can use this website to safely store your files and passwords</h2>
-				<hr class="my-4">
-				<a class="btn btn-primary btn-lg" href="bookroom.php" role="button">View Companies</a>
-			</div>
+
+				<h1 class="a">You can use this page to generate a random secure password!</h1>
+
+
+
+
 		</div>
 		</div>
 		</div>

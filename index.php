@@ -27,7 +27,7 @@ session_start();
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="Companies.php">List of Companies</a></li>
-					<li><a href="booked.php">Random Password Generator</a></li>
+					<li><a href="RandomPassword.php">Random Password Generator</a></li>
 					<?php
                         session_start();
                         if(isset($_SESSION["online"]) && $_SESSION["online"] == true){
