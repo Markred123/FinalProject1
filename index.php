@@ -54,8 +54,8 @@ session_start();
 				<div class="col-md-12 col-sm-12">
 					<div class="showcase-left">
 			<div class="jumbotron">
-				<h1 class="a">Hello there....</h1>
-				<h2 class="b">You can use this website to book rooms in NCI</h2>
+				<h1 class="a">Work Assistant</h1>
+				<h2 class="b">You can use this website to safely store your files and passwords</h2>
 				<hr class="my-4">
 				<a class="btn btn-primary btn-lg" href="bookroom.php" role="button">Book rooms</a>
 			</div>
@@ -67,13 +67,6 @@ session_start();
 
 	<br>
 	<hr>
-
-
-	<div class="outline3">
-		<div class="container">
-			<footer>RB Copyright &copy; 2019<br/></footer>
-		</div>
-	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
