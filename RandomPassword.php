@@ -9,6 +9,9 @@ function generateRandomPassword($length = 16) {
     }
     return $randomString;
 }
+if(isset($_POST['button1'])) {
+				 echo generateRandomPassword();
+		 }
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,6 +67,11 @@ function generateRandomPassword($length = 16) {
 					<div class="showcase-left">
 
 				<h1 class="a">You can use this page to generate a random secure password! </h1>
+
+				<form method="post">
+					<input type="submit" name="button1"
+						class="button" value="Button1" />
+				</form>
 				<?php echo generateRandomPassword(); ?>
 
 
