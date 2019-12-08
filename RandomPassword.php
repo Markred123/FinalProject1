@@ -63,7 +63,7 @@ function generateRandomPassword($length = 16) {
 				<div class="col-md-12 col-sm-12">
 					<div class="showcase-left">
 
-				<h1 class="a">You can use this page to generate a random secure password! <?php echo generateRandomPassword() ?> </h1>
+				<h1 class="a">You can use this page to generate a random secure password! <?php echo generateRandomPassword(); ?> </h1>
 				<?php echo generateRandomPassword ?>
 
 
