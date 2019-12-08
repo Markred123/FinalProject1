@@ -71,7 +71,7 @@ if(isset($_POST['button1'])) {
 				<h1 class="a">You can use this page to generate a random secure password! </h1>
 
 				<form method="post">
-					<input type="submit" name="button1"
+					<input type="submit" name="Generate a password"
 						class="button" value="Button1" />
 				</form>
 				<?php echo getPassword(); ?>
