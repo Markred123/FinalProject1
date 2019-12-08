@@ -10,7 +10,9 @@ function generateRandomPassword($length = 16) {
     return $randomString;
 }
 if(isset($_POST['button1'])) {
+	function getPassword(){
 				 echo generateRandomPassword();
+			 }
 		 }
 ?>
 <!DOCTYPE html>
@@ -72,7 +74,7 @@ if(isset($_POST['button1'])) {
 					<input type="submit" name="button1"
 						class="button" value="Button1" />
 				</form>
-				<?php echo generateRandomPassword(); ?>
+				<?php echo getPassword(); ?>
 
 
 
