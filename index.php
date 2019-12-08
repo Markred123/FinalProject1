@@ -68,36 +68,6 @@ session_start();
 	<br>
 	<hr>
 
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-sm-5">
-					<form role="form" method="post" action="php/contact.php">
-						<div class="form-group">
-							<label>Name: </label>
-							<input class="form-control" type="text" name="name" id="name" placeholder="Enter Name" maxlength="20">
-						</div>
-						<div class="form-group">
-							<label>Email: </label>
-							<input class="form-control" type="email" name="email" id="email" placeholder="Enter Email" maxlength="40">
-						</div>
-						<div class="form-group">
-							<label>Message: </label>
-							<textarea class="form-control" type="text" name="message" id="message" placeholder="Enter Message"></textarea>
-						</div>
-					<input id="submit" name="submit" type="submit" value="Submit" class="btn btn-primary">
-					</form>
-				</div>
-				<div class="col-md-7 col-sm-7">
-						<br/>
-						<br/>
-						<p class="text-right">+353 86 6666666</p>
-						<p class="text-right">info@rb.ie</p>
-						<p class="text-right">National College of Ireland</p>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<div class="outline3">
 		<div class="container">
