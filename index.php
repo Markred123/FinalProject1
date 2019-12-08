@@ -26,7 +26,7 @@ session_start();
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="bookroom.php">List of Companies</a></li>
+					<li><a href="Companies.php">List of Companies</a></li>
 					<li><a href="booked.php">Random Password Generator</a></li>
 					<?php
                         session_start();
