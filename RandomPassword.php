@@ -1,5 +1,14 @@
 <?php
 session_start();
+function generateRandomPassword($length = 16) {
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -55,6 +64,7 @@ session_start();
 					<div class="showcase-left">
 
 				<h1 class="a">You can use this page to generate a random secure password!</h1>
+				<?php echo generateRandomPassword ?>
 
 
 
@@ -64,6 +74,7 @@ session_start();
 		</div>
 		</div>
 	</section>
+
 
 	<br>
 	<hr>
